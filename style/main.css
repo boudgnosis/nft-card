@@ -10,6 +10,7 @@
 }
 
 body {
+	font-family: 'Outfit', sans-serif;
 	background-color: var(--very-dark-blue-main-BG);
 	display: flex;
 	justify-content: center;
@@ -19,6 +20,11 @@ body {
 
 p {
 	font-size: .9em;
+}
+
+hr {
+	color: var(--soft-blue);
+	margin: 0;
 }
 
 .container__card {
@@ -43,6 +49,7 @@ p {
 
 .card__img img {
 	width: 240px;
+	display: block;
 	border-radius:7px;
 	-webkit-border-radius:7px;
 	-moz-border-radius:7px;
@@ -75,10 +82,11 @@ p {
 	-moz-border-radius: 7px;
 	-ms-border-radius: 7px;
 	-o-border-radius: 7px;
-}
-
-.card__img:hover {
-	background-color: var(--very-dark-blue-)
+	transition: all 0.2s ease-out;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-ms-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
 }
 
 .card__information {
@@ -95,12 +103,18 @@ p {
 
 .information__eth .eth__title h2{
 	font-size: 1.3em;
+	font-weight: 600;
 	margin: 0;
 }
 
 .information__eth .eth__title h2:hover {
 	color: var(--cyan);
 	cursor: pointer;
+	transition: all 0.2s ease-out;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-ms-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
 }
 
 .information__eth-text .eth__text{
@@ -112,6 +126,8 @@ p {
 .eth__text-flex {
 	display: flex;
 	align-items: center;
+	font-weight: 400;
+	margin: 0 0 12px 0;
 }
 
 .eth__text-flex img {
@@ -119,7 +135,7 @@ p {
 }
 
 .information__eth-text p .eth {
-	color: var(--cyan);
+	color: var(--cyan);	
 }
 
 .information__avatar {
@@ -131,6 +147,11 @@ p {
 .information__avatar .name__by:hover {
 	color: var(--cyan);
 	cursor: pointer;
+	transition: all 0.2s ease-out;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-ms-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
 }
 
 .information__avatar .avatar img {
