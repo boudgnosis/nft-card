@@ -101,13 +101,13 @@ hr {
 	color: var(--soft-blue);
 }
 
-.information__eth .eth__title h2{
+.information__eth .eth__title h1{
 	font-size: 1.3em;
 	font-weight: 600;
 	margin: 0;
 }
 
-.information__eth .eth__title h2:hover {
+.information__eth .eth__title h1:hover {
 	color: var(--cyan);
 	cursor: pointer;
 	transition: all 0.2s ease-out;
